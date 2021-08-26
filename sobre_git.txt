@@ -34,3 +34,12 @@ git clone https://github.com/ciaocamilo/proyectos_grupo_66.git
 BAJAR CAMBIOS
 
 git pull
+
+MANEJO DE RAMAS
+
+git branch desarrollo
+git branch
+git checkout desarrollo
+
+SUBIR CAMBIOS A RAMA
+git push origin desarrollo
