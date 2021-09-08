@@ -2,9 +2,11 @@
     <head>
         <meta charset="utf-8">
         <title>La Tienda de Ropa 66</title>
+        <link rel="icon" href="imagenes/favicon.png" type="image/png" />
+        <link rel="stylesheet" type="text/css" href="estilos/menu.css">
     </head>
     <body>
-        <h1>Tienda 66</h1>
+        <h1 class="titulos">Tienda 66</h1>
         <h3>Mi tienda de Ropa</h3>
         <!--
         <img src="https://media.istockphoto.com/vectors/sale-special-offer-horizontal-banner-background-with-thin-line-vector-id867940914" alt="Banner de la tienda" width="1000" height="200">
@@ -22,13 +24,42 @@
             </tr>
         </table>
         -->
-        <table>
+        <table id="menu">
             <tr>
                 <th><a href="index.html">Inicio</a></th>
+                <!-- <th><a href="productos.html" target="_blank">Productos</a></th>-->
                 <th><a href="productos.html">Productos</a></th>
                 <th><a href="clientes.html">Clientes</a></th>
                 <th><a href="carrito.html">Carrito de Compras</a></th>
             </tr>
         </table>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="clientes.html">Clientes</a></li>
+            <li><a href="carrito.html">Carrito de Compras</a></li>
+        </ul>
+        <div id="parrafo">
+            <p>
+                Bienvenidos a la <b>tienda 66</b>, su mejor tienda en linea
+            </p>
+        </div>
+        <div id="video">
+            <!-- <iframe width="600" height="380" src="https://www.youtube.com/embed/ahO47mXCzuc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ahO47mXCzuc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
     </body>
 </html>
+<style>
+    /*
+    h1 {
+        font-family: verdana;
+        font-size: 60px;
+    }
+    */
+    .titulos {
+        font-family: verdana;
+        font-size: 60px;
+    }
+</style>
