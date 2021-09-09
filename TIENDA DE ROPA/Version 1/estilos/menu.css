@@ -6,19 +6,25 @@ table {
 
   #navBar {
     z-index: 1;
-    position: fixed;
+    /*position: fixed;*/
     top: 0;
     left: 0;
     width: 100%;
     text-align: center;
-    background: #E7E7E7;
+    background: #E7E7E7 !important;
     box-shadow: 10px 10px 10px #ccc;
+    border-radius: 10px;
   }
 
   #navBar a {
     display: block;
     color: #000;
     text-decoration: none;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /*width: 260px;
+    height: 40px;*/
   }
 
   #navBar a:hover {
