@@ -1,0 +1,22 @@
+.imagen-producto {
+    max-width: 200px;
+    max-height: 100%;
+    border-radius: 30px;
+}
+
+.fila-productos {
+    display: flex;
+}
+
+.tarjeta-producto {
+    padding: 10px;
+    border: solid;
+    margin: 10px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px #ccc;
+}
+
+.nombre-producto {
+    text-align: center;
+    color: #08546d;
+}
