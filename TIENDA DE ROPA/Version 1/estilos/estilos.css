@@ -20,3 +20,25 @@
     text-align: center;
     color: #08546d;
 }
+
+.precio-producto {
+    text-align: center;
+    color: #a00d0d;
+    font-family: cursive;
+}
+
+.descripcion-producto {
+    max-width: 200px;
+    text-align: justify;
+}
+
+.estilo-icono {
+    font-size: 64px;
+    border-style: outset;
+    background-color: gold;
+}
+
+.div-icono {
+    text-align: center;
+    padding-bottom: 10px;
+}
