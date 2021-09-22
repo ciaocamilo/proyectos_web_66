@@ -2,10 +2,11 @@
     max-width: 200px;
     max-height: 100%;
     border-radius: 30px;
+    padding-right: 10px;
 }
 
 .fila-productos {
-    display: flex;
+    display: flex !important;
 }
 
 .tarjeta-producto {
@@ -14,6 +15,7 @@
     margin: 10px;
     border-radius: 30px;
     box-shadow: 10px 10px 10px #ccc;
+    max-width: 220px !important;
 }
 
 .nombre-producto {
@@ -42,3 +44,31 @@
     text-align: center;
     padding-bottom: 10px;
 }
+
+.div-galeria {
+    padding-top: 30px;
+}
+
+@media (max-width: 575.9px) {
+    .imagen-producto {
+        max-width: 400px;
+        max-height: 100%;
+        border-radius: 30px;
+        padding-right: 10px;
+    }
+
+    .tarjeta-producto {
+        padding: 10px;
+        border: solid;
+        margin: 10px;
+        border-radius: 30px;
+        box-shadow: 10px 10px 10px #ccc;
+        max-width: 440px !important;
+    }
+
+    .descripcion-producto {
+        max-width: 400px;
+        text-align: justify;
+        font-size: 25px;
+    }
+ }
