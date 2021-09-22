@@ -49,6 +49,18 @@
     padding-top: 30px;
 }
 
+.tarjeta-total {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: white;
+    border: solid;
+    border-radius: 10px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
 @media (max-width: 575.9px) {
     .imagen-producto {
         max-width: 400px;

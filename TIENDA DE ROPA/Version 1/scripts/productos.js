@@ -8,4 +8,9 @@ function agregarAlCarrito(nombre_producto, precio_producto) {
     console.log(carrito);
     total = total + precio_producto;
     total_carrito.innerText = '$' + total;
+    Swal.fire(
+        'Producto agregado',
+        'Se ha agregado ' + nombre_producto + ' al carrito de compras',
+        'success'
+    )
 }
