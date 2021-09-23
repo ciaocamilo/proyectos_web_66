@@ -58,15 +58,16 @@
     border: solid;
     border-radius: 10px;
     margin-right: 5px;
-    margin-top: 5px;
+    margin-top: 120px;
+    padding: 5px
 }
 
 @media (max-width: 575.9px) {
     .imagen-producto {
-        max-width: 400px;
+        max-width: 310px;
         max-height: 100%;
         border-radius: 30px;
-        padding-right: 10px;
+        padding-left: 15px;
     }
 
     .tarjeta-producto {
@@ -75,12 +76,21 @@
         margin: 10px;
         border-radius: 30px;
         box-shadow: 10px 10px 10px #ccc;
-        max-width: 440px !important;
+        max-width: 350px !important;
     }
 
     .descripcion-producto {
-        max-width: 400px;
+        max-width: 310px;
         text-align: justify;
         font-size: 25px;
+    }
+
+    #navBar {
+        font-size: 15px;
+    }
+
+    .tamano-video {
+        height: auto;
+        width: 350px
     }
  }
