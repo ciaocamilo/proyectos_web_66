@@ -59,23 +59,7 @@ export default {
        return {
            cliente: { nombre: 'Juan', apellido: 'Castañeda' },
            cantidad: 0,
-           productos: [
-               {
-                   id: 1,
-                   nombre: 'Camiseta',
-                   precio: 25000
-               },
-               {
-                   id: 2,
-                   nombre: 'Vestido',
-                   precio: 150000
-               },
-               {
-                   id: 3,
-                   nombre: 'Pantalón',
-                   precio: 120000
-               }
-           ],
+           productos: [],
            alimentos: [
                {
                    id: 1,
@@ -134,6 +118,30 @@ export default {
            })
 
         }
+    },
+    created () {
+        this.productos = [
+               {
+                   id: 1,
+                   nombre: 'Camiseta',
+                   precio: 25000
+               },
+               {
+                   id: 2,
+                   nombre: 'Vestido',
+                   precio: 150000
+               },
+               {
+                   id: 3,
+                   nombre: 'Pantalón',
+                   precio: 120000
+               }
+           ]
+        console.log('Ejecuta created')
+    },
+    mounted () {
+        console.log('Ejecuta mounted')
+        // this.enviarCliente()
     }
 }
 </script>
