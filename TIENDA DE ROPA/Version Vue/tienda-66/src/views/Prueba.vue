@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-        <h1>Mi prueba de rutas</h1>
+        <h1>Mi prueba de rutas</h1><br>
         <MiComponente/>
     </div>
 </template>
