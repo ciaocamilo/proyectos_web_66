@@ -2,20 +2,23 @@
   <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
   <!-- <HelloWorld msg='Bienvenidos a Vue!'/> -->
   <!-- <MiComponente/> -->
- <div id="nav">
+ <!-- <div id="nav">
     <router-link to="/">Inicio</router-link>
-    <router-link :to="{name: 'PaginaPrueba'}"> Página prueba </router-link>
-  </div>
+  </div> -->
+  <barra-menu/>
   <router-view/>
+  <router-link :to="{name: 'PaginaPrueba'}"> Página prueba </router-link>
 </template>
 
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
 // import MiComponente from './components/MiComponente.vue'
+import BarraMenu from '@/components/Menu.vue'
 
 export default {
   name: 'App',
   components: {
+    BarraMenu
     // HelloWorld,
     // MiComponente
   }
