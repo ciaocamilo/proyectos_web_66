@@ -5,15 +5,15 @@ import path from 'path';
 
 const app = express();
 
-// // Conexión base de datos
-// const mongoose = require('mongoose');
-// const uri = 'mongodb://localhost:27017/test';
-// const options = {useNewUrlParser: true, useUnifiedTopology: true};
+// Conexión base de datos
+const mongoose = require('mongoose');
+const uri = 'mongodb://localhost:27017/Tienda_66';
+const options = {useNewUrlParser: true, useUnifiedTopology: true};
 
-// mongoose.connect(uri, options).then(
-//     () => { console.log('Conectado a DB') },
-//     err => { console.log(err) }
-// );
+mongoose.connect(uri, options).then(
+    () => { console.log('Conectado a DB') },
+    err => { console.log(err) }
+);
 
 // Middleware
 app.use(morgan('tiny'));
