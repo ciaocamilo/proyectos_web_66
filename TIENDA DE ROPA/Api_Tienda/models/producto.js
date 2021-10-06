@@ -3,6 +3,7 @@ const Schema = mongoose.Schema;
 
 const productoSchema = new Schema(
     {
+        codigoBarras: {type: String, required: [true, 'Código de barras requerido']},
         nombre: {type: String, required: [true, 'Nombre requerido']},
         precio: {type: Number, required: [true, 'Precio requerido']},
         imagen: String,
