@@ -43,6 +43,35 @@
 						}
 					},
 					"response": []
+				},
+				{
+					"name": "Crear cliente",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"identificacion\": \"1110111\",\r\n    \"nombres\": \"Pepito\",\r\n    \"apellidos\": \"Perez\",\r\n    \"fecha_nacimiento\": \"02/01/2000\",\r\n    \"correo\": \"pepito@correo.com\",\r\n    \"edad\": 21,\r\n    \"direccion\": \"Avenidad X\",\r\n    \"terminos\": \"1\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/nuevo-cliente",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"nuevo-cliente"
+							]
+						}
+					},
+					"response": []
 				}
 			]
 		},

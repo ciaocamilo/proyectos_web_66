@@ -1,0 +1,23 @@
+import express from 'express';
+const router = express.Router();
+
+// Importar modelo
+import Cliente from '../models/cliente';
+
+// Ruta para crear cliente
+router.post('/nuevo-cliente', async(req, res) => {
+    const body = req.body.data;
+    // console.log(body);
+    try {
+        const clienteDB = await Cliente.create(body);
+        res.status(200).json(clienteDB);
+    } catch (error) {
+        return res.status(400).json({
+            mensaje: 'Sucedió un error al crear el cliente',
+            error
+        })
+    }
+});
+
+// Exportar configuración
+module.exports = router;
