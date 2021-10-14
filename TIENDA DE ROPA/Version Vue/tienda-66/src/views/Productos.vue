@@ -91,7 +91,7 @@ export default {
             )
         },
         cargarProductos () {
-           axios.get('http://localhost:3000/api/productos')
+           axios.get('https://tienda-66-api.herokuapp.com/api/productos')
            .then(response => {
                let status_peticion = response.status
                console.log(status_peticion)
